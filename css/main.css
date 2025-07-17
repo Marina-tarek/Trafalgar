@@ -146,9 +146,12 @@ h2::after {
     font-size: 18px;
     padding: 10px;
     color: #1F1534;
-
+transition: all 0.3 ease;
 }
-
+.nav_links a:hover{
+    
+    text-decoration: 2px underline;
+}
 
 /* Home Section */
 .home {
@@ -247,7 +250,7 @@ h2::after {
     margin: 20px;
     height: 300px;
     box-shadow: 10px 40px 50px 0px #E5E9F666;
-    transition: all 0.5 ease-out;
+    transition: all 0.3 ease;
 }
 
 .card:hover {
@@ -508,4 +511,7 @@ footer ul li {
     padding: 5px;
     font-size: 18px;
     line-height: 38px;
+}
+footer ul li a{
+    color: white;
 }

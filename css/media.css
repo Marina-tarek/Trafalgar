@@ -7,7 +7,6 @@
 
     .nav_links {
         margin-top: 10px;
-
         justify-content: center;
     }
 
@@ -76,7 +75,8 @@
     }
 
     .healthcare-content {
-        width: 100%;
+        width: 90%;
+        margin: 0 auto;
     }
 
     /* ---------------------- */
@@ -87,6 +87,7 @@
 
     .mobileApp-content {
         width: 90%;
+        margin: 0 auto;
     }
 
     .mobileApp img {
@@ -96,6 +97,7 @@
     /* ------------------ */
     .testimonial-design {
         margin: 20px;
+        padding: 35px;
     }
 
     .testimonial-content {
@@ -135,8 +137,20 @@
         flex-direction: column;
     }
 
-    .first-column,
+    .first-column {
+        width: 100%;
+        text-align: center;
+    }
+
+    .footer-logo {
+        justify-content: center;
+    }
+
     .col {
+        width: 100%;
+    }
+
+    .column {
         width: 100%;
     }
 }
@@ -147,35 +161,67 @@
         gap: 15px;
         flex-direction: column;
     }
-        .service-content {
+
+    .service-content {
 
         flex-wrap: wrap;
+    }
+
+    .container {
+        gap: 20px;
+        padding: 20px 20px;
+    }
+
+    .home {
+        flex-direction: column;
+    }
+
+    .home-content {
+        width: 85%;
+    }
+
+    .Home-img {
+        margin-top: 30px;
+        justify-content: center;
+        width: 90%;
+    }
+        .service-title  {
+        padding: 0;
+    }
+    .service-title p {
+        padding: 0;
+    }
+    .card{
+        height: 250px;
     }
 }
 
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
-        .navbar {
+    .navbar {
         gap: 15px;
-flex-direction: row;
+        flex-direction: row;
     }
-    .container{
+
+    .container {
         padding: 35px;
         margin: 15px 0;
     }
+
     /* .service-layout{
         margin: 0;
         padding: 0;
     }
 } */
- .service-content{
-    flex-wrap: wrap;
- }
+    .service-content {
+        flex-wrap: wrap;
+    }
 }
+
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
-    .service-content{
+    .service-content {
         flex-wrap: nowrap;
     }
 }
