@@ -1,230 +1,117 @@
+
+
 /* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
-    .navbar {
-        padding: 5px;
-        flex-direction: column;
-    }
+ @media only screen and (max-width: 600px) {
 
-    .nav_links {
-        margin-top: 10px;
-        justify-content: center;
-    }
+ } 
 
-    .container {
-        gap: 20px;
-        padding: 20px 20px;
-    }
-
-    .home {
-        flex-direction: column;
-    }
-
-    .home-content {
-        gap: 15px;
-        width: 85%;
-    }
-
-    .home-content button {
-        margin-top: 0;
-    }
-
-    .Home-img {
-        justify-content: center;
-        width: 90%;
-    }
-
-    .Home-img img {
-        width: 90%;
-    }
-
-    h1 {
-        font-size: 40px;
-        margin-bottom: 20px;
-    }
-
-    h2 {
-        font-size: 34px;
-    }
-
-    /* ---------------- */
-    .service-title {
-        padding: 0;
-        margin: 0;
-    }
-
-    .service-title p {
-        padding: 0;
-    }
-
-    .service-content {
-        /* flex-direction: column; */
-        flex-wrap: wrap;
-    }
-
-    .service-layout {
-        margin: 0;
-    }
-
-    /* ----------------- */
-    .healthcare {
-        flex-direction: column;
-    }
-
-    .healthcare img {
-        width: 90%;
-    }
-
-    .healthcare-content {
-        width: 90%;
-        margin: 0 auto;
-    }
-
-    /* ---------------------- */
-    .mobileApp {
-        gap: 30px;
-        flex-direction: column;
-    }
-
-    .mobileApp-content {
-        width: 90%;
-        margin: 0 auto;
-    }
-
-    .mobileApp img {
-        width: 95%;
-    }
-
-    /* ------------------ */
-    .testimonial-design {
-        margin: 20px;
-        padding: 35px;
-    }
-
-    .testimonial-content {
-        flex-direction: column;
-    }
-
-    .profile-img {
-        gap: 15px;
-        flex-direction: column;
-    }
-
-    .desc {
-        margin: 0 auto;
-        width: 90%;
-    }
-
-    .fa-solid,
-    .fa-regular {
-        font-size: 15px;
-    }
-
-    .routing {
-        justify-content: center;
-    }
-
-    /* ----------- */
-    .artical .artical-content {
-        gap: 50px;
-        flex-direction: column;
-    }
-
-    footer {
-        padding: 10px;
-    }
-
-    footer .container {
-        flex-direction: column;
-    }
-
-    .first-column {
-        width: 100%;
-        text-align: center;
-    }
-
-    .footer-logo {
-        justify-content: center;
-    }
-
-    .col {
-        width: 100%;
-    }
-
-    .column {
-        width: 100%;
-    }
-}
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
-    .navbar {
-        gap: 15px;
-        flex-direction: column;
-    }
-
-    .service-content {
-
-        flex-wrap: wrap;
-    }
-
-    .container {
-        gap: 20px;
-        padding: 20px 20px;
-    }
-
-    .home {
-        flex-direction: column;
-    }
-
-    .home-content {
-        width: 85%;
-    }
-
-    .Home-img {
-        margin-top: 30px;
-        justify-content: center;
-        width: 90%;
-    }
-        .service-title  {
-        padding: 0;
-    }
-    .service-title p {
-        padding: 0;
-    }
-    .card{
-        height: 250px;
-    }
+  
 }
-
+ 
 
 /* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
-    .navbar {
-        gap: 15px;
-        flex-direction: row;
-    }
+ @media only screen and (min-width: 768px) {
 
-    .container {
-        padding: 35px;
-        margin: 15px 0;
-    }
-
-    /* .service-layout{
-        margin: 0;
-        padding: 0;
-    }
-} */
-    .service-content {
-        flex-wrap: wrap;
-    }
+h1{
+    margin: 10px 0;
+    font-size: 42px;
+}
+ h2{
+    margin: 0;
+ }
+.container{
+        margin-left: 0;
+    margin-right: 0;
+    padding: 25px;
+}
+.service-title,.service-title p{
+    padding: 0;
 }
 
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
-    .service-content {
-        flex-wrap: nowrap;
-    }
+.service-content,.healthcare,.mobileApp,.profile-img,.artical-content{
+    flex-direction: column;
 }
+
+.healthcare-img,.mobileApp-img{
+    width: 80%;
+    margin: 20px auto;
+}
+.healthcare-img img,.mobileApp-img img{
+    width: 100%;
+}
+.healthcare-content,.mobileApp-content{
+    width: 90%;
+    margin: 10px auto;
+}
+.artical-card{
+    width: 80%;
+    margin: 0 auto;
+}
+ footer .container{
+    padding: 0;
+} 
+} 
+
+ /*Large devices (laptops/desktops, 992px and up) */
+ @media only screen and (min-width: 992px) {
+ h1{
+     margin: 15px 0;
+    font-size: 45px;
+ }
+
+ .service-content{
+    width: 95%;
+ }
+ .card{
+    margin: 15px;
+    height: 350px;
+    padding: 10px;
+ }
+
+ .healthcare-img img, .mobileApp div img{width: 100%;}
+ .healthcare-content,.healthcare-img, .mobileApp div{
+    width: 45%;
+ }
+ .container{
+
+    padding: 30px;
+ }
+
+ .artical .artical-content{
+    padding: 25px;
+ }
+.artical-card{
+margin: 0 15px;
+ }
+ .service-content,.healthcare,.profile-img,.artical-content{
+    flex-direction: row;
+}
+.artical-content{
+    gap: 30px;
+}
+
+} 
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {}
+@media only screen and (min-width: 1200px) {
+     .service-content{
+    width: 90%;
+ }
+ .card{
+   padding: 15px;
+    margin: 20px;
+    height: 320px;
+ }
+  .container{
+    padding: 40px;
+ }
+ .artical .artical-content{padding: 30px;}
+
+}
+
+
+
+
