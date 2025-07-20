@@ -1,117 +1,315 @@
-
-
 /* Extra small devices (phones, 600px and down) */
- @media only screen and (max-width: 600px) {
+@media only screen and (max-width: 600px) {
+    .navbar {
+        flex-direction: column;
+        gap: 10px;
+    }
 
- } 
+    .nav_links {
+        justify-content: center
+    }
+
+    .container {
+        margin-left: 0;
+        margin-right: 0;
+        padding: 10px;
+    }
+
+    .home,
+    .service-content,
+    .healthcare,
+    .mobileApp,
+    .profile-img,
+    .artical-content,
+    .testimonial-content {
+        flex-direction: column;
+    }
+
+    .home-content {
+        width: 85%;
+    }
+
+    .Home-img {
+        width: 70%;
+        margin-top: 20px;
+    }
+
+    .service-title {
+        padding: 0;
+    }
+
+    .service-title p {
+        padding: 0;
+    }
+
+    .card {
+        height: 350px;
+    }
+
+    .healthcare-img,
+    .mobileApp-img {
+        width: 85%;
+        margin: 0 auto;
+        margin-top: 30px;
+    }
+
+    .healthcare-img img,
+    .mobileApp-img img {
+        width: 100%;
+    }
+      .healthcare-content,
+    .mobileApp-content {
+        width: 90%;
+        margin: 10px auto;
+    }
+       .desc {
+        width: 80%;
+        margin: 0 auto;
+    }
+    footer .container {
+        flex-direction: column;
+        padding: 0;
+    }
+        .first-column {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .column {
+        width: 80%;
+        margin: 0 auto;
+    }
+    .testimonial-design{
+        width: 65%;
+    }
+}
 
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
-  
+    .navbar {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .home,
+    .service-content,
+    .healthcare,
+    .mobileApp,
+    .profile-img,
+    .artical-content,
+    .testimonial-content {
+        flex-direction: column;
+    }
+
+    .home-content {
+        width: 80%;
+    }
+
+    .container {
+        margin-left: 0;
+        margin-right: 0;
+        padding: 20px;
+    }
+
+    h1 {
+        margin: 10px 0;
+        font-size: 40px;
+    }
+
+    .Home-img {
+        margin: 0 auto;
+        width: 70%;
+    }
+
+    .service-title,
+    .service-title p {
+        padding: 0;
+    }
+
+    .healthcare-img,
+    .mobileApp-img {
+        width: 85%;
+        margin: 0 auto;
+        margin-top: 30px;
+    }
+
+    .healthcare-img img,
+    .mobileApp-img img {
+        width: 100%;
+    }
+
+    .card {
+        height: 280px;
+    }
+
+    .healthcare-content,
+    .mobileApp-content {
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    .desc {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .artical-content {
+        gap: 30px;
+    }
+
+    footer .container {
+        flex-direction: column;
+        padding: 0;
+    }
+
+    .first-column {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .column {
+        width: 80%;
+        margin: 0 auto;
+    }
+    
 }
- 
+
 
 /* Medium devices (landscape tablets, 768px and up) */
- @media only screen and (min-width: 768px) {
+@media only screen and (min-width: 768px) {
+    .navbar {
+        flex-direction: row;
+    }
 
-h1{
-    margin: 10px 0;
-    font-size: 42px;
-}
- h2{
-    margin: 0;
- }
-.container{
-        margin-left: 0;
-    margin-right: 0;
-    padding: 25px;
-}
-.service-title,.service-title p{
-    padding: 0;
-}
+    h1 {
+        margin: 10px 0;
+        font-size: 42px;
+    }
 
-.service-content,.healthcare,.mobileApp,.profile-img,.artical-content{
-    flex-direction: column;
-}
+    h2 {
+        margin: 0;
+    }
 
-.healthcare-img,.mobileApp-img{
-    width: 80%;
-    margin: 20px auto;
-}
-.healthcare-img img,.mobileApp-img img{
-    width: 100%;
-}
-.healthcare-content,.mobileApp-content{
-    width: 90%;
-    margin: 10px auto;
-}
-.artical-card{
-    width: 80%;
-    margin: 0 auto;
-}
- footer .container{
-    padding: 0;
-} 
-} 
+    .home {
+        flex-direction: row;
+    }
 
- /*Large devices (laptops/desktops, 992px and up) */
- @media only screen and (min-width: 992px) {
- h1{
-     margin: 15px 0;
-    font-size: 45px;
- }
+    .home-content {
+        width: 35%;
+    }
 
- .service-content{
-    width: 95%;
- }
- .card{
-    margin: 15px;
-    height: 350px;
-    padding: 10px;
- }
+    .healthcare-img,
+    .mobileApp-img {
+        width: 80%;
+        margin: 20px auto;
+    }
 
- .healthcare-img img, .mobileApp div img{width: 100%;}
- .healthcare-content,.healthcare-img, .mobileApp div{
-    width: 45%;
- }
- .container{
+    .healthcare-content,
+    .mobileApp-content {
+        width: 90%;
+        margin: 10px auto;
+    }
 
-    padding: 30px;
- }
+    .testimonial-content {
+        flex-direction: row;
+    }
 
- .artical .artical-content{
-    padding: 25px;
- }
-.artical-card{
-margin: 0 15px;
- }
- .service-content,.healthcare,.profile-img,.artical-content{
-    flex-direction: row;
-}
-.artical-content{
-    gap: 30px;
+    .artical-card {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .desc {
+        width: 40%
+    }
+
+    .first-column {
+        width: 40%;
+        margin: 0 auto;
+    }
+
+    footer .container {
+        flex-direction: row;
+    }
+
+    .column {
+        width: 55%;
+    }
 }
 
-} 
+/*Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    h1 {
+        margin: 15px 0;
+        font-size: 45px;
+    }
+
+    .service-content {
+        width: 95%;
+    }
+
+    .card {
+        margin: 15px;
+        height: 350px;
+        padding: 10px;
+    }
+
+    .healthcare-img img,
+    .mobileApp div img {
+        width: 100%;
+    }
+
+    .healthcare-content,
+    .healthcare-img,
+    .mobileApp div {
+        width: 45%;
+    }
+
+    .container {
+        padding: 30px;
+    }
+
+    .artical-content {
+        padding: 25px;
+    }
+
+    .artical-card {
+        margin: 0 15px;
+    }
+
+    .service-content,
+    .healthcare,
+    .profile-img,
+    .artical-content,
+    .mobileApp {
+        flex-direction: row;
+    }
+
+    .artical-content {
+        gap: 0;
+    }
+
+}
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
-     .service-content{
-    width: 90%;
- }
- .card{
-   padding: 15px;
-    margin: 20px;
-    height: 320px;
- }
-  .container{
-    padding: 40px;
- }
- .artical .artical-content{padding: 30px;}
+    .service-content {
+        width: 90%;
+    }
+
+    .card {
+        padding: 15px;
+        margin: 20px;
+        height: 320px;
+    }
+
+    .container {
+        padding: 40px;
+    }
+
+    .artical .artical-content {
+        padding: 30px;
+    }
 
 }
-
-
-
-

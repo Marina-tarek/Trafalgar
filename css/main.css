@@ -413,7 +413,7 @@ transition: all 0.3 ease;
 
 }
 
-.artical .artical-content {
+.artical-content {
     display: flex;
     justify-content: space-evenly;
     background-image: url(../images/dottedElement.png);
