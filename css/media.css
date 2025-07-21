@@ -82,6 +82,9 @@
     .testimonial-design{
         width: 65%;
     }
+    .column{
+        width: 100%;
+    }
 }
 
 
@@ -181,7 +184,10 @@
     .navbar {
         flex-direction: row;
     }
-
+    .Home-img {
+        margin: 0 auto;
+        width: 45%;
+    }
     h1 {
         margin: 10px 0;
         font-size: 42px;
@@ -311,5 +317,10 @@
     .artical .artical-content {
         padding: 30px;
     }
-
+.service-title p{
+    padding: 0 50px;
+}
+h2{
+    margin: 30px;
+}
 }
